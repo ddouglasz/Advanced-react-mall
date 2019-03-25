@@ -30,7 +30,7 @@ class Page extends Component {
       <ThemeProvider theme={theme}>
         <StyledPage>
           <Meta />
-          <Header />
+          <Header />  
           <Inner>{this.props.children}</Inner>
         </StyledPage>
       </ThemeProvider>
